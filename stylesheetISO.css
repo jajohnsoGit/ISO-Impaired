@@ -1,0 +1,67 @@
+header img { display: block;
+}
+
+.textwrap { float: left; 
+        margin: 30px;
+}
+
+body { font-family: Arial; 
+    padding: 15px 100px 15px 100px;
+}
+
+h1 { text-align: center
+}
+
+h2 { font-family: monospace;
+}
+
+h3 { font-family: monospace; 
+    text-align: center;
+    color: hsla(150, 88%, 25%, 0.2)
+}
+
+a:visited { color: black;
+        background-color: royalblue;
+} <!-- FIGURE THIS OUT, CHANGE LINK & BACKGROUND COLOR -->
+
+footer { background-color: royalblue;
+		color: white;
+}
+#foot { display: inline block; 
+        padding: 2px;
+        zoom: 1;
+        vertical-align: middle;
+}
+table#table tr: nth-child(even){
+    background-color:#fff; 
+}
+
+table#table tr:nth-child(odd) {
+    background-color: #eee;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 12%;
+    text-align: center;
+    padding: 5px
+}
+<!-- NAV VISITED LINKS:
+  /* font-family: Montserrat,Verdana , Geneva, Tahoma, Arial, Helvetica, sans-serif; */
+  background-color: #555555;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #555555;
+  border-radius: 0;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 8px 26px;
+  font-weight: normal;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+reference came from: http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_link_more1 
+-->
